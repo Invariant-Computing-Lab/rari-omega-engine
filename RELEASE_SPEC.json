@@ -1,0 +1,18 @@
+{
+  "repo": "rari-omega-engine",
+  "commands": [
+    [
+      "python",
+      "run_checks.py"
+    ]
+  ],
+  "check_cwd": ".",
+  "scope": "14 original tests and one original source probe after exact-byte dependency recovery. No complete remote/biological campaign.",
+  "runtime_status": "PASS",
+  "last_check": {
+    "passed": true,
+    "checked_utc": "2026-10-21T16:54:21.651849+00:00",
+    "scope": "14 original tests and one original source probe after exact-byte dependency recovery. No complete remote/biological campaign."
+  },
+  "status": "LOCAL_RUNTIME_PASSED_OWNER_GATES_OPEN"
+}

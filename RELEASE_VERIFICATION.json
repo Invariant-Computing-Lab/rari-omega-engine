@@ -1,0 +1,73 @@
+{
+  "repo": "rari-omega-engine",
+  "status": "PASS",
+  "checked_utc": "2026-10-21T16:54:21.651849+00:00",
+  "scope": "14 original tests and one original source probe after exact-byte dependency recovery. No complete remote/biological campaign.",
+  "test_count": 14,
+  "log": "test_dynamic_disk_budget (test_omega.Core.test_dynamic_disk_budget) ... ok\ntest_gop_core_declared (test_omega.Core.test_gop_core_declared) ... ok\ntest_gop_pure_controls (test_omega.Core.test_gop_pure_controls) ... ok\ntest_gop_quintic_runs (test_omega.Core.test_gop_quintic_runs) ... ok\ntest_gop_seven_finite (test_omega.Core.test_gop_seven_finite) ... ok\ntest_legacy_track_ids (test_omega.Core.test_legacy_track_ids) ... ok\ntest_localfleet_reset_exact (test_omega.Core.test_localfleet_reset_exact) ... ok\ntest_nine_realbio (test_omega.Core.test_nine_realbio) ... ok\ntest_no_provider_code (test_omega.Core.test_no_provider_code) ... ok\ntest_old_lock_constant (test_omega.Core.test_old_lock_constant) ... ok\ntest_phase_label_source (test_omega.Core.test_phase_label_source) ... ok\ntest_protocol_terminal (test_omega.Core.test_protocol_terminal) ... ok\ntest_realbio_no_full_download (test_omega.Core.test_realbio_no_full_download) ... ok\ntest_ten_synth_cards_declared (test_omega.Core.test_ten_synth_cards_declared) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.326s\n\nOK\n",
+  "environment": "Linux CPython 3.13.5; inherited NumPy 2.3.5 / SciPy 1.17.0.",
+  "scientific_thresholds_or_sample_counts_changed": false,
+  "source_recovery": [
+    {
+      "destination": "source/reference/rari_neurobrain/experiment.py",
+      "sha256": "4f9e6d875723328ac4d7fe53c815cd87cd04b07907fd1e80252e71913a154854",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/experiment.py"
+    },
+    {
+      "destination": "source/reference/rari_neurobrain/records.py",
+      "sha256": "0d19f628664533f8ecc8cf670570115434ecb69c86fdced5f331b75d9b6606d3",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/records.py"
+    },
+    {
+      "destination": "source/reference/rari_neurobrain/science.py",
+      "sha256": "75711bc5422212820de951203adb0afe96d56d0ffad2a42f755740f6edb44a47",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/science.py"
+    },
+    {
+      "destination": "source/reference/rari_neurobrain/world.py",
+      "sha256": "037a1d0eb2d8c3c65ca41005969c5e9bb9c749c6904ba144245d6a36033055fd",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/world.py"
+    },
+    {
+      "destination": "source/reference/rari_neurobrain/evaluation.py",
+      "sha256": "1676d76cd37aca58b98b46f00debac1ebec901afa8f1a4b4650bbc524cafa0ad",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/evaluation.py"
+    },
+    {
+      "destination": "source/reference/rari_neurobrain/subject.py",
+      "sha256": "fac2206d94377eb383f76888daf078353013214d130ead62ecd1032110af5d4d",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/subject.py"
+    },
+    {
+      "destination": "source/reference/rari_neurobrain/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "invariant-omega-portable/_frozen/reference/rari_neurobrain/__init__.py"
+    },
+    {
+      "destination": "source/inputs/GOP_TOE_FOUNDATION_v1_0.zip",
+      "sha256": "9598a41c0c928f68c27cc2ed9728fc00f2967c811bc9f30e792d0ddcda34f208",
+      "origin": "invariant-omega-portable/_frozen/inputs/GOP_TOE_FOUNDATION_v1_0.zip"
+    },
+    {
+      "destination": "source/inputs/LEGACY_REALBIO_V5_SUMMARY.json",
+      "sha256": "270b077b004aafaf63f5965569f0d0c2a7f1a5c39dbb96e1f1fb97a8a8dddf62",
+      "origin": "invariant-omega-portable/_frozen/inputs/LEGACY_REALBIO_V5_SUMMARY.json"
+    },
+    {
+      "destination": "source/OMEGA_PROTOCOL.json",
+      "sha256": "d355faa9ad652e932c37852a9159e69f2b6325faa14e6017b0d7500812bbe0e9",
+      "origin": "invariant-omega-portable/_frozen/OMEGA_PROTOCOL.json"
+    }
+  ],
+  "probe_receipt": "{\"status\": \"PASS\", \"mode\": \"single-preserved-fixture\", \"family\": 2080, \"clinical_validation\": false, \"full_campaign_replay\": false, \"provider_calls\": 0, \"fixture_sha256\": \"2e77cf789a42d1bed6fcad8521a5a2ad298f81bf021dcad0acff3701a75965cd\"}\n",
+  "software_only_revision": {
+    "status": "PASS",
+    "checked_utc": "2026-10-21T17:08:06.798551+00:00",
+    "log_sha256": "214c2d77e677b2882780bf9c29f8ce6b87ea67ca505b6b832080c7587f19b445",
+    "tests_run": 14,
+    "scientific_core_unchanged": true,
+    "nested_transport_archive_filtered": true,
+    "source_environment": "current Linux dependency environment; not independently provisioned",
+    "scientific_revalidation_or_rights_approval": false
+  }
+}
